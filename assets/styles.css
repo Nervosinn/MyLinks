@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./bg-desktop.jpg) no-repeat top center/cover;
+}
+
+footer {
+  height: 200px;
+}
+
+#container {
+  width: 588px;
+  margin: 0 auto;
+}
+#profile img {
+  display: block;
+  width: 112px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+#links {
+  width: 540px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+#links button {
+  background-color: grey;
+  padding: 24px 16px;
+  height: 56px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  margin: 8px 0;
+}
+
+#links a {
+  text-decoration: none;
+  color: #fff;
+}
